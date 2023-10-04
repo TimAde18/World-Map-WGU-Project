@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid" style="margin-top: 10px;">
     <div class="row">
         <div class="col-md">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 666" aria-label="World Map">
@@ -785,18 +785,19 @@
             </svg>
         </div>
 
-        <div class="card col-3 text-white bg-dark align-self-center m-2 mb-2">
+        <div class=" col-3 card text-white bg-dark align-self-center m-2 mb-2">
             <h1 class="card-title text-center">Country  <span style="color: darkorchid;">Info</span></h1>
             <hr />
             <div class="card-body">
-                <h3 class="card-text">Country Name:  <span style="color: darkorchid;">{{ countryName }}</span></h3>
-                <h3 class="card-text">Country Capital:  <span style="color: darkorchid;">{{ capitalCity }}</span></h3>
-                <h3 class="card-text">CountryRegion: <span style="color: darkorchid;">{{ countryRegion }}</span></h3>
-                <h3 class="card-text">Income Level: <span style="color: darkorchid;">{{ incomeLevel }}</span></h3>
-                <h3 class="card-text">Longitude: <span style="color: darkorchid;">{{ longitude }}</span></h3>
-                <h3 class="card-text">Latitude: <span style="color: darkorchid;">{{ latitude }}</span></h3>
-                <p class="card-text text-center">Click on a country to get its information!</p>
+                    <h3 class="card-text">Country Name:  <span style="color: darkorchid;">{{ countryName }}</span></h3>
+                    <h3 class="card-text">Country Capital:  <span style="color: darkorchid;">{{ capitalCity }}</span></h3>
+                    <h3 class="card-text">CountryRegion: <span style="color: darkorchid;">{{ countryRegion }}</span></h3>
+                    <h3 class="card-text">Income Level: <span style="color: darkorchid;">{{ incomeLevel }}</span></h3>
+                    <h3 class="card-text">Longitude: <span style="color: darkorchid;">{{ longitude }}</span></h3>
+                    <h3 class="card-text">Latitude: <span style="color: darkorchid;">{{ latitude }}</span></h3>
+                    <p class="card-text text-center">Click on a country to get its information!</p>
             </div>
         </div>
     </div>
 </div>
+<p id="api-info">API Information is from <a href="https://datahelpdesk.worldbank.org/knowledgebase/articles/898590-country-api-queries" target="_blank">WorldBank</a></p>
