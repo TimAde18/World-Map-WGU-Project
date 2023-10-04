@@ -1,0 +1,21 @@
+#input-bar {
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: indigo;
+}
+
+a:visited {
+    color: palevioletred;
+}
+
+a:hover {
+    color: plum;
+}
+
+#api-info {
+    margin-left: 10px;
+}
